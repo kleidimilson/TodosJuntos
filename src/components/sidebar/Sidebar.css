@@ -1,0 +1,78 @@
+aside{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    background-color: #FF6914;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+   
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    
+}
+
+.menu ul{
+   display: flex;
+   flex-direction: row;
+
+}
+
+.menu ul a{
+    text-decoration: none;
+}
+.menu li{
+    padding: 13px;
+    margin-top: 20px;
+    list-style: none;
+    color:#fff;
+}
+
+.menu li:hover{
+    background-color: #E35809;
+}
+.pesquisar{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+   
+}
+.butao{
+   height: 40px;
+   border: none;
+   border-radius: 1px 4px 4px 1px ;
+   font-size: 14px;
+   margin-top: 20px;
+   background-color: #E35809;
+   
+  
+   color: #FFf;
+   
+   margin-left: -20px;
+   font-size: 30px;
+}
+.pesquisa{
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.logo{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
