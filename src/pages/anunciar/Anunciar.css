@@ -1,0 +1,13 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main iframe{
+    margin-top: 90px;
+}
+#btn-voltar{
+    position: absolute;
+    top:15px;
+    left: 30px;
+}
