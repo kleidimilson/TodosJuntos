@@ -1,0 +1,72 @@
+
+.nav-bar{
+    background-color: #FF6914;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         3px 1px 10px rgba(50, 50, 50, 0.77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: #fff;
+    margin-bottom: 20px;
+    position: absolute;
+    width: 100%;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF6914;
+    position: fixed;
+    top: 88.9%;
+    color: #fff;
+ 
+}
+.menu ul{
+    display: flex;
+
+}
+.menu ul li{
+    padding: 18px;
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+     
+     align-items: center;
+    list-style:none;
+    text-align: center;
+}
+
+header{
+    border-radius: 30px;
+    background-color: #FF6914;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 35vh;
+    color: #fff;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itens{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    gap: 1px 1px;
+    margin-bottom: 10vh;
+    
+}
+.item{
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+}
