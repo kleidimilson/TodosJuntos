@@ -2,14 +2,12 @@
 
 .menu{
     width: 100%;
-    height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #28A745;
     position: fixed;
-    top: 89.9%;
-   
+    top: 87.3%;
     color: #fff;
  
 }
@@ -21,8 +19,6 @@
 .menu ul li{
     padding: 10px;
     margin-left: 20px;
-    margin-bottom: 20px;
-   
      align-items: center;
      list-style:none;
      
@@ -31,14 +27,15 @@
      
 }
 .menu ul li a{
-    margin-top: 10px;
-    
+    padding: 6px;
+    font-size: 14px;
     text-decoration: none;
     color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 10px;
 }
 .menu ul {
     color: #fff;
@@ -101,9 +98,18 @@ main{
     flex-direction: column;
     font-weight: bold;
     border-radius: 20px;
+
     padding: 20px;
     margin: 10px;
     background-color: #fff;
+}
+.item a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: #818689;
 }
 .item:hover{
     border: 2px #28A745 solid;
