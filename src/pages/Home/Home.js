@@ -15,6 +15,8 @@ import './Home.css';
 import Navbar from '../../components/Navbar/Navbar';
 import Menu from '../../components/menu/Menu';
 function Home() {
+  // LINKS APONTANDO PARA A PAGINA DE ANUNCIOS POR ENQUANTO
+
   return (
     <>
        <Navbar/>
@@ -38,13 +40,13 @@ function Home() {
           <h3>Escolha uma categoria:</h3>
           <div className="itens">
            <div className="item">
-               <Link to="/lanches">
+               <Link to="/anuncios">
                  <FaHamburger color="#28a745" size={60}/>
                  <p>Lanches</p>
                 </Link>
             </div>
             <div className="item">
-              <Link>
+              <Link to="/anuncios">
                 <FaHospitalAlt color="#28a745" size={60}/>
                 <p>Hospitais</p>
               </Link>
@@ -52,25 +54,25 @@ function Home() {
             </div>
             
             <div className="item">
-               <Link>
+               <Link to="/anuncios">
                  <FaStore  color="#28a745" size={60}/>
                  <p>Lojas</p>
                 </Link>
             </div>
             <div className="item">
-                <Link>
+                <Link to="/anuncios">
                   <MdLocalHospital color="#28a745" size={60}/>
                   <p>Farmácias</p>
                 </Link>
             </div>
             <div className="item">
-               <Link>
+               <Link to="/anuncios">
                 <MdWork color="#28a745" size={60}/>
                 <p>Profissionais</p>
                </Link>
             </div>
             <div className="item">
-              <Link>
+              <Link to="/anuncios">
                 <FaBookOpen color="#28a745" size={60}/>
                 <p>Cursos</p>
                 </Link>

@@ -11,7 +11,7 @@ function Routes(){
                 <Route path="/" component={Home} exact/>
                 <Route path="/anunciar" component={Anunciar}/>
                 <Route path="/sobre" component={Sobre}/>
-                <Route path="/lanches" component={Lanches}/>
+                <Route path="/anuncios" component={Lanches}/>
               
            
             </Switch>

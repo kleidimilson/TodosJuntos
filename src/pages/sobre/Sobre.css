@@ -18,12 +18,13 @@ main iframe{
     width: 80%;
     padding: 20px;
     font-size: 15px;
-    margin-bottom: 20px;
     border-radius: 20px;
     background-color: white;
-    margin-top: 90px;
+    margin-top: 67px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column  ;
+    
+   
 }
