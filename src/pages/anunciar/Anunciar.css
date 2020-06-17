@@ -5,9 +5,6 @@ main{
 }
 main iframe{
     margin-top: 90px;
-}
-#btn-voltar{
-    position: fixed;
-    top:15px;
-    left: 30px;
+    order: -1;
+    margin-bottom: 20px;
 }

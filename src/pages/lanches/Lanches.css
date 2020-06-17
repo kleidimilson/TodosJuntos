@@ -1,13 +1,23 @@
 .banner{
-    padding-top: 50px;
+  
+
     border-radius: 30px;
-    background-color: #28A745;
+   
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 30vh;
+    height: 38vh;
+    
     color: #fff;
+}
+.banner video{
+   background-position: center;
+   background-size: cover;
+   height: 60%;
+   width: 100%;
 }
 .cards{
     background-color: white;
@@ -21,4 +31,7 @@
 .img-lanche{
     width: 150px;
     height: 150px;
+}
+h2{
+    margin-top: 60px;
 }

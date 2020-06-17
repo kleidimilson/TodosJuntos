@@ -1,14 +1,16 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
+
 import './Anunciar.css'
 import Navbar from '../../components/Navbar/Navbar';
-import {FaLongArrowAltLeft} from 'react-icons/fa';
+
+import Menu from '../../components/menu/Menu';
 
 function Anunciar (){
     return(
         <>
             <Navbar/>
-            <Link to="/"><FaLongArrowAltLeft id="btn-voltar" size={27} color="#fff"/></Link>
+            <Menu/>
+            
             <main>
                 <br></br>
                  

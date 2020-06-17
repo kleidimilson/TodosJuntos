@@ -1,23 +1,25 @@
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import './Lanches.css';
-import imagem from '../../img/restaurante.jpg'
+import Menu from '../../components/menu/Menu';
 
+import video from '../../img/video.mp4';
+import  { FaTimes } from 'react-icons/fa'
 function Lanches(){
     return(
         <>
             <Navbar/>
+            <Menu/>
             <div className="banner">
-                <h2>Lanches</h2>
+              
+               <video autoplay="autoplay" loop="loop" >
+                    <source src={video}/>
+               </video>
             </div>
             <main>
-                <div className="cards">
-                    <img  className="img-lanche" width="40%" src={imagem} alt=""/>
-                    <div className="informacoes">
-                        <h2>Tok Final</h2>
-                    </div>
-                </div>
-              
+              <h2>Disponível em breve... </h2>
+              <FaTimes size={40}color="#28A745"/>
+                
             </main>
         </>
     );

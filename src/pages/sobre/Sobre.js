@@ -4,11 +4,12 @@ import './Sobre.css'
 import Navbar from '../../components/Navbar/Navbar';
 import {FaLongArrowAltLeft} from 'react-icons/fa';
 import imagem from '../../img/finance.svg'
-
+import Menu from '../../components/menu/Menu';
 function Sobre(){
     return(
         <>
             <Navbar/>
+            <Menu/>
             <Link to="/"><FaLongArrowAltLeft id="btn-voltar" size={27} color="#fff"/></Link>
             <main>
                 <div className="sobre">

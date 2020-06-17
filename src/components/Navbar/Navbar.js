@@ -2,7 +2,7 @@ import React from 'react';
 import {FaHandsHelping, FaFacebook} from 'react-icons/fa';
 import {FaInstagram} from 'react-icons/fa';
 
-import {FaSearch } from  'react-icons/fa';
+
 import './Navbar.css';
 function Navbar (){
     return(
