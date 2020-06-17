@@ -35,6 +35,7 @@ function Home() {
                 <input type="text"/>
                 <FaSearch id="icon-search" color="#28a745"/>
               </div>
+              <a href="https://www.vakinha.com.br/vaquinhas/explore" >Ajude o projeto</a>
          </div>
        </header>
        <main>
@@ -42,6 +43,12 @@ function Home() {
          <br></br>
           <h3>Escolha uma categoria:</h3>
           <div className="itens">
+           <div className="item">
+               <Link to="/lanches">
+                 <FaHamburger color="#28a745" size={60}/>
+                 <p>Lanches</p>
+                </Link>
+            </div>
             <div className="item">
               <Link>
                 <FaHospitalAlt color="#28a745" size={60}/>
@@ -49,12 +56,7 @@ function Home() {
               </Link>
               
             </div>
-            <div className="item">
-               <Link>
-                 <FaHamburger color="#28a745" size={60}/>
-                 <p>Lachonetes</p>
-                </Link>
-            </div>
+            
             <div className="item">
                <Link>
                  <FaStore  color="#28a745" size={60}/>
