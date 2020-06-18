@@ -8,6 +8,8 @@ import {FaHospitalAlt} from 'react-icons/fa';
 import {FaHamburger} from 'react-icons/fa';
 import {FaStore} from 'react-icons/fa';
 import {FaSearch} from 'react-icons/fa';
+import {FaCommentDollar} from 'react-icons/fa';
+import {FaGlassMartini} from 'react-icons/fa';
 import {MdLocalHospital} from 'react-icons/md';
 import {MdWork} from 'react-icons/md';
 
@@ -22,32 +24,39 @@ function Home() {
        <Navbar/>
         <Menu/>
        <header>
-        
+      
          <div className="banner">
               <h3>Bem vindo!!</h3>
               <p><MdLocationOn/>Campo Maior PI</p>
               <div className="input">
                 <input type="text"/>
-                <FaSearch id="icon-search" color="#28a745"/>
+                <FaSearch id="icon-search" color="#FF6914"/>
               </div>
-              <a href="https://www.vakinha.com.br/vaquinhas/explore" >Ajude o projeto</a>
+              <a href="https://www.vakinha.com.br/vaquinhas/explore" >Fazer um Anúncio</a>
          </div>
        </header>
        <br></br>
        <main>
         
-       
+          
           <h3>Escolha uma categoria:</h3>
           <div className="itens">
            <div className="item">
                <Link to="/anuncios">
-                 <FaHamburger color="#28a745" size={60}/>
+                 <FaHamburger color="#FF6914" size={60}/>
                  <p>Lanches</p>
                 </Link>
             </div>
             <div className="item">
               <Link to="/anuncios">
-                <FaHospitalAlt color="#28a745" size={60}/>
+                <FaGlassMartini color="#FF6914" size={60}/>
+                <p>Bebidas</p>
+              </Link>
+              
+            </div>
+            <div className="item">
+              <Link to="/anuncios">
+                <FaHospitalAlt color="#FF6914" size={60}/>
                 <p>Hospitais</p>
               </Link>
               
@@ -55,25 +64,32 @@ function Home() {
             
             <div className="item">
                <Link to="/anuncios">
-                 <FaStore  color="#28a745" size={60}/>
+                 <FaStore  color="#FF6914" size={60}/>
                  <p>Lojas</p>
                 </Link>
             </div>
             <div className="item">
+              <Link to="/anuncios">
+                <FaCommentDollar color="#FF6914" size={60}/>
+                <p>Promoções</p>
+                </Link>
+            </div>
+          
+            <div className="item">
                 <Link to="/anuncios">
-                  <MdLocalHospital color="#28a745" size={60}/>
+                  <MdLocalHospital color="#FF6914" size={60}/>
                   <p>Farmácias</p>
                 </Link>
             </div>
             <div className="item">
                <Link to="/anuncios">
-                <MdWork color="#28a745" size={60}/>
+                <MdWork color="#FF6914" size={60}/>
                 <p>Profissionais</p>
                </Link>
             </div>
             <div className="item">
               <Link to="/anuncios">
-                <FaBookOpen color="#28a745" size={60}/>
+                <FaBookOpen color="#FF6914" size={60}/>
                 <p>Cursos</p>
                 </Link>
             </div>

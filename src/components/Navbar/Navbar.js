@@ -10,7 +10,7 @@ function Navbar (){
             <nav className="nav-bar">
                 <div className="logo">
                     <FaHandsHelping  size={30}/>  
-                    <h3>Todos Juntos</h3>
+                    <h3>PlaceTop</h3>
                 </div>
                 <div>
                     <FaInstagram className="social-icon" size={25}/>

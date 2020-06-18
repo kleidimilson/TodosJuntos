@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #28A745;
+    background-color: #FF6914;
     padding-top: 40px;
 }
 .banner input{
@@ -72,5 +72,5 @@ main{
     color: #818689;
 }
 .item:hover{
-    border: 2px #28A745 solid;
+    border: 2px #FF6914 solid;
 }
