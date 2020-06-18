@@ -32,7 +32,7 @@ function Home() {
                 <input type="text"/>
                 <FaSearch id="icon-search" color="#FF6914"/>
               </div>
-              <a href="https://www.vakinha.com.br/vaquinhas/explore" >Fazer um Anúncio</a>
+              <Link to="/anunciar">Fazer um Anúncio</Link>
          </div>
        </header>
        <br></br>
