@@ -31,4 +31,4 @@ Conforme o SEBRAE (Serviço Brasileiro de Apoio às micro e pequenas empresas) ,
 
 ### Link da Aplicação
 
-Link para acessar a aplicação funcionando : https://todosjuntos.netlify.app/
+Link para acessar a aplicação funcionando : https://placetop.netlify.app/
