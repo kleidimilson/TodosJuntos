@@ -1,68 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## Projeto PlaceTop
 
-### `yarn start`
+### Apresentação
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p>Durante a pandemia muitos empresários estão sofrendo com a falta de demandas devido o fechamento do comércio, afim de resolver está problemática resolvi criar o PlaceTop e alavancar a economia local atráves de meios digitais.
+</p>
+<p>
+Conforme o SEBRAE (Serviço Brasileiro de Apoio às micro e pequenas empresas) , Pelo menos 600 mil micro e pequenas empresas fecharam as portas e 9 milhões de funcionários foram demitidos em razão dos efeitos econômicos da pandemia do novo coronavírus. A pesquisa também mostra que 30% dos empresários tiveram que buscar empréstimos para manter seus negócios, mas o resultado não tem sido positivo: 29,5% destes empreendedores ainda aguarda uma resposta das instituições financeiras e 59,2% simplesmentes tiveram seus pedidos negados. 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+</p>
 
-### `yarn test`
+### Produto
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p>O PlaceTop consiste em um Web App que divulga as empresas locais e busca aproximar os consumidores dos pequenos produtores rurais, comerciantes e prestadores de serviço, especialmente durante o período de isolamento social imposto pela Covid-19. Isso é feito por meio de ferramentas digitais, sem nenhum custo para consumidores e fornecedores cadastrados.</p>
 
-### `yarn build`
+### Telas
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### Tecnologia utilizada
+<ul>
+    <li>React Js</li>
+    <li>Node Js</li>
+    <li>Mongo DB</li>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    
+</ul>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Link da Aplicação
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Link para acessar a aplicação funcionando : https://todosjuntos.netlify.app/
