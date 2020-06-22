@@ -15,7 +15,7 @@ Conforme o SEBRAE (Serviço Brasileiro de Apoio às micro e pequenas empresas) ,
 
 <p>O PlaceTop consiste em um Web App que divulga as empresas locais e busca aproximar os consumidores dos pequenos produtores rurais, comerciantes e prestadores de serviço, especialmente durante o período de isolamento social imposto pela Covid-19. Isso é feito por meio de ferramentas digitais, sem nenhum custo para consumidores e fornecedores cadastrados.</p>
 
-### Telas
+
 
 
 
