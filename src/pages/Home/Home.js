@@ -32,10 +32,7 @@ function Home() {
          <div className="banner">
               <h3>Bem vindo!!</h3>
               <p><MdLocationOn/>Campo Maior PI</p>
-              <div className="input">
-                <input type="text"/>
-                <FaSearch id="icon-search" color="#FF6914"/>
-              </div>
+           
               <Link to="/anunciar">Fazer um Anúncio</Link>
          </div>
        </header>
