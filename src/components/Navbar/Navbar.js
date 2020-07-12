@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import {FaHandsHelping, FaFacebook} from 'react-icons/fa';
 import {FaInstagram} from 'react-icons/fa';
 
@@ -8,15 +9,18 @@ function Navbar (){
     return(
         <>
             <nav className="nav-bar">
-                <div className="logo">
-                    <FaHandsHelping  size={30}/>  
-                    <h3>PlaceTop</h3>
-                </div>
+                <Link to="/">
+                    <div className="logo">
+                        <FaHandsHelping  size={30}/>  
+                        <h3>Todos Juntos</h3>
+                    </div>
+                </Link>
+
+            
                 <div>
                     <FaInstagram className="social-icon" size={25}/>
                     <FaFacebook className="social-icon" size={25}/>
                 </div>
-               
             </nav>
         </>
     )

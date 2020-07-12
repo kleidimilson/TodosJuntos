@@ -18,7 +18,7 @@ function Sobre(){
                     <h2>Sobre nós</h2>
                     <p>A iniciativa Todos Juntos é um projeto, que busca aproximar os consumidores dos pequenos produtores rurais, comerciantes e prestadores de serviço, especialmente durante o período de isolamento social imposto pela Covid-19. Isso é feito por meio de ferramentas digitais, sem nenhum custo para consumidores e fornecedores cadastrados.
 
-                        Desenvolvido pelo estudante de Ciência da Computação da Universidade Estadual do Piauí Kleidimilson. Juntos, pretendendo gerar aprendizado e ao mesmo tempo, melhorar a economia de Campo Maior e da região.</p>
+                        Desenvolvido pelo estudante de Ciência da Computação da Universidade Estadual do Piauí Kleidimilson, pretendendo gerar aprendizado e ao mesmo tempo, melhorar a economia de Campo Maior e da região.</p>
                 </div>
                 
                 
