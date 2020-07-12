@@ -7,17 +7,14 @@ import {FaBookOpen} from 'react-icons/fa';
 import {FaHospitalAlt} from 'react-icons/fa';
 import {FaHamburger} from 'react-icons/fa';
 import {FaStore} from 'react-icons/fa';
-import {FaSearch} from 'react-icons/fa';
+
 import {FaCommentDollar} from 'react-icons/fa';
 import {FaGlassMartini} from 'react-icons/fa';
 import {MdLocalHospital} from 'react-icons/md';
 import {MdWork} from 'react-icons/md';
 
-import { Slide } from 'react-slideshow-image';
 import './Home.css';
-import banner1 from './images/banner1.jpg';
-import banner2 from './images/banner2.jpg';
-import banner3 from './images/banner3.jpg'
+
 import Navbar from '../../components/Navbar/Navbar';
 import Menu from '../../components/menu/Menu';
 function Home() {
