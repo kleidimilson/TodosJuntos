@@ -9,12 +9,10 @@ function Lanches(){
         <>
             <Navbar/>
             <Menu/>
-            <div className="banner">
-                <h3>#vemproplaceTop</h3>
-            </div>
+            
             <main>
               <h2>Disponível em breve... </h2>
-              <FaTimes size={40}color="#FF6914"/>
+              <FaTimes size={40}color="#F6A32D"/>
                 
             </main>
         </>

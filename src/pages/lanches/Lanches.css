@@ -1,18 +1,4 @@
-.banner{
-  
 
-    border-radius: 30px;
-   
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 38vh;
-    
-    color: #fff;
-}
 .banner video{
    background-position: center;
    background-size: cover;
