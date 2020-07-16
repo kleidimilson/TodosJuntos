@@ -61,7 +61,7 @@ const Anuncios = (props) => {
                                 <p>{item.endereço}</p>
                                 <div className="links">
                                      <a id="btn-wpp" href={`https://api.whatsapp.com/send?phone=${item.contato}&text=Olá${item.nome}%20vim%20pelo%20todos%20juntos`}>WhatsApp<FaWhatsapp id="icon-wpp" size={12}/></a>
-                                     <a id="btn-info" href={'#'}>Ler mais<RiInformationLine id="icon-wpp" size={12}/></a>
+                                     <a id="btn-info" href="https://todosjuntos.netlify.app/anuncios/lanches">Ler mais<RiInformationLine id="icon-wpp" size={12}/></a>
                                 </div>
                                 
                                 
