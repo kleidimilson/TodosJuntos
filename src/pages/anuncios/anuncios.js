@@ -12,13 +12,7 @@ const Anuncios = (props) => {
     let tipo = props.match.params.tipo;
 
     
-      if(tipo === 'farmacias'){
-        tipo = 'farmácias';
-      }
-      if(tipo === 'servicos'){
-          tipo = 'vagas'
-      }
-        
+     
 
     console.log(tipo)
 
