@@ -10,6 +10,12 @@
     color: #fff;
     text-transform: uppercase;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 main ul{
     margin-top: -27px;
 }
@@ -85,4 +91,15 @@ main ul{
 #cidade{
     color: #f6a32d;
     font-size: 13px;
+}
+
+.not-itens{
+   position: relative;
+   top: 200px;
+   color: #313a53;
+   font-weight: bold;
+   font-size: 18px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
