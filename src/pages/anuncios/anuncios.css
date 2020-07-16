@@ -1,3 +1,18 @@
+.header{
+    width: 100%;
+    margin-top: -23px;
+    height: 20vh;
+    background-color: #313a53;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+main ul{
+    margin-top: -27px;
+}
 .cards{
     
     display: flex;
@@ -21,6 +36,7 @@
     flex-direction: column;
     align-items: flex-start;
 }
+
 .cards-description p{
     color: #818689;
     font-size: 13px;
@@ -28,7 +44,45 @@
 .cards-description h2{
     color: #313a53
 }
+#btn-wpp{
+    text-decoration: none;
+    border: none;
+    background-color: #4AC05F;
+    color: #fff;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3px;
+
+}
+#btn-info{
+    text-decoration: none;
+    border: none;
+    background-color: #24282C;
+    color: #fff;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3px;
+
+}
+#icon-wpp{
+    margin-left: 5px;
+}
+.links{
+    display: flex;
+}
 #cidade{
     color: #f6a32d;
-    font-size: 16px;
+    font-size: 13px;
 }

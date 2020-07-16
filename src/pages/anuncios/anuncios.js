@@ -2,12 +2,24 @@ import React, {useState,useEffect} from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import './anuncios.css';
 import Menu from '../../components/menu/Menu';
+import {FaWhatsapp} from 'react-icons/fa';
+import {RiInformationLine} from 'react-icons/ri';
 
 
 import api from '../../services/api';
 const Anuncios = (props) => {
     const [itens, setItens ] = useState([]);
     let tipo = props.match.params.tipo;
+
+    
+      if(tipo === 'farmacias'){
+        tipo = 'farmácias';
+      }
+      if(tipo === 'servicos'){
+          tipo = 'vagas'
+      }
+        
+
     console.log(tipo)
 
     useEffect(() => {
@@ -30,29 +42,35 @@ const Anuncios = (props) => {
             
             <main>
               
+                <div className="header">
+
+                    {tipo}
+                </div>
            
-           
-            
-                {itens.map(item => (
-                 
-                 <ul>
-                     <div className="cards">
-                        <img src={item.link} alt="imagem" width="100px"/>
-                       
-                        <div className="cards-description">
-                            <h2>{item.nome}</h2>
-                            <p id="cidade">{item.cidade}</p>
-                            <p>{item.contato}</p>
-                            <p>{item.endereço}</p>
-                            <button></button>
-                           
-                       
-                        </div>
+                <ul>
+
+              
+                    {itens.map(item => (
+                        <div className="cards">
+                            <img src={item.link} alt="imagem" width="100px"/>
                         
-                     </div>
-                     
-                 </ul>
-              ))}
+                            <div className="cards-description">
+                                <h2>{item.nome}</h2>
+                                <p id="cidade">{item.cidade}</p>
+                                <p>{item.contato}</p>
+                                <p>{item.endereço}</p>
+                                <div className="links">
+                                     <a id="btn-wpp" href={`https://api.whatsapp.com/send?phone=${item.contato}&text=Olá${item.nome}%20vim%20pelo%20todos%20juntos`}>WhatsApp<FaWhatsapp id="icon-wpp" size={12}/></a>
+                                     <a id="btn-info" href={'#'}>Ler mais<RiInformationLine id="icon-wpp" size={12}/></a>
+                                </div>
+                                
+                                
+                        
+                            </div>
+                            
+                        </div>
+                    ))}
+                </ul>
              
                 
             </main>
