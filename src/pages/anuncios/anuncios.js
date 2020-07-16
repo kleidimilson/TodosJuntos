@@ -44,6 +44,7 @@ const Anuncios = (props) => {
                             <p id="cidade">{item.cidade}</p>
                             <p>{item.contato}</p>
                             <p>{item.endereço}</p>
+                            <button></button>
                            
                        
                         </div>
