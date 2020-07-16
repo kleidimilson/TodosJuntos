@@ -30,7 +30,7 @@ const Anuncios = (props) => {
             
             <main>
               
-             <h2>{tipo}</h2>
+           
            
             
                 {itens.map(item => (
