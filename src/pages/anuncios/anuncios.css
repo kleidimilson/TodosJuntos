@@ -66,6 +66,9 @@ main ul{
     margin-right: 3px;
 
 }
+.cards img{
+    border-radius: 20px;
+}
 #btn-info{
     text-decoration: none;
     border: none;

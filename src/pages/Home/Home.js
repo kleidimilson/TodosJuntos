@@ -24,7 +24,7 @@ function Home() {
        <Navbar/>
         <Menu/>
        <header>
-        <img src={'https://firebasestorage.googleapis.com/v0/b/todosjuntos-d06c3.appspot.com/o/banner-apoie-o-local-02-07.jpg?alt=media&token=68a2c216-7ce6-4d2c-b347-73314989823f'} width="100%" heigh="auto" alt="imagem"/>
+         <img src={'https://firebasestorage.googleapis.com/v0/b/todosjuntos-d06c3.appspot.com/o/banner-apoie-o-local-02-07.jpg?alt=media&token=68a2c216-7ce6-4d2c-b347-73314989823f'} width="100%" height="150%" alt="imagem"/>
        </header>
        <br></br>
        <main>
