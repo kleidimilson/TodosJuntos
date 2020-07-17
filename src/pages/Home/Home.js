@@ -40,17 +40,17 @@ function Home() {
       
        <Slide id="banner">
           <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImagens[0]})`, 'height': `70%`, 'display': 'flex', 'alignContent':'center', 'justifyContent': 'center', 'padding': 50, 'backgroundSize': 'cover'}}>
+            <div style={{'backgroundImage': `url(${slideImagens[0]})`,'width': '100%', 'height': `100%`, 'display': 'flex', 'alignContent':'center', 'justifyContent': 'center', 'padding': 50, 'backgroundSize': 'cover'}}>
         
             </div>
           </div>
           <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImagens[1]})`, 'height': `70%`, 'display': 'flex', 'alignContent':'center', 'justifyContent': 'center', 'padding': 50, 'backgroundSize': 'cover'}}>
+            <div style={{'backgroundImage': `url(${slideImagens[1]})`, 'height': `100%`, 'display': 'flex', 'alignContent':'center', 'justifyContent': 'center', 'padding': 50, 'backgroundSize': 'cover'}}>
         
             </div>
           </div>
           <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImagens[2]})`, 'height': `70%`, 'display': 'flex', 'alignContent':'center', 'justifyContent': 'center', 'padding': 50, 'backgroundSize': 'cover'}}>
+            <div style={{'backgroundImage': `url(${slideImagens[2]})`, 'height': `100%`, 'display': 'flex', 'alignContent':'center', 'justifyContent': 'center', 'padding': 50, 'backgroundSize': 'cover'}}>
         
             </div>
           </div>
