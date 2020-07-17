@@ -1,13 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import { Slide } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
-import banner1 from '../../img/banner1.jpg';
-import banner2 from '../../img/banner2.jpg';
-import banner3 from '../../img/banner3.jpg';
-import banner4 from '../../img/banner4.jpg';
-import banner5 from '../../img/banner5.jpg';
 
 import {FaBookOpen} from 'react-icons/fa';
 import {FaHospitalAlt} from 'react-icons/fa';
@@ -25,47 +18,13 @@ import Navbar from '../../components/Navbar/Navbar';
 import Menu from '../../components/menu/Menu';
 function Home() {
   // LINKS APONTANDO PARA A PAGINA DE ANUNCIOS POR ENQUANTO
-   const slideImagens = [
-     `${banner1}`,
-     `${banner2}`,
-     `${banner3}`,
-     `${banner4}`,
-     `${banner5}`
-   ]
+ 
   return (
     <>
        <Navbar/>
         <Menu/>
        <header>
-      
-       <Slide id="banner">
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImagens[0]})`,'width': '100%', 'height': `100%`, 'display': 'flex', 'alignContent':'center', 'justifyContent': 'center', 'padding': 50, 'backgroundSize': 'cover'}}>
-        
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImagens[1]})`, 'height': `100%`, 'display': 'flex', 'alignContent':'center', 'justifyContent': 'center', 'padding': 50, 'backgroundSize': 'cover'}}>
-        
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImagens[2]})`, 'height': `100%`, 'display': 'flex', 'alignContent':'center', 'justifyContent': 'center', 'padding': 50, 'backgroundSize': 'cover'}}>
-        
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImagens[3]})`, 'height': `70%`, 'display': 'flex', 'alignContent':'center', 'justifyContent': 'center', 'padding': 50, 'backgroundSize': 'cover'}}>
-        
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImagens[4]})`, 'height': `70%`, 'display': 'flex', 'alignContent':'center', 'justifyContent': 'center', 'padding': 50, 'backgroundSize': 'cover'}}>
-        
-            </div>
-          </div>
-         
-        </Slide>
+        <img src={'https://firebasestorage.googleapis.com/v0/b/todosjuntos-d06c3.appspot.com/o/banner-apoie-o-local-02-07.jpg?alt=media&token=68a2c216-7ce6-4d2c-b347-73314989823f'} width="100%" heigh="auto" alt="imagem"/>
        </header>
        <br></br>
        <main>
