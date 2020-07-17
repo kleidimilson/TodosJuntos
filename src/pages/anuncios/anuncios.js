@@ -4,9 +4,11 @@ import './anuncios.css';
 import Menu from '../../components/menu/Menu';
 import {FaWhatsapp} from 'react-icons/fa';
 import {MdLocationOn} from 'react-icons/md';
-import {MdClose} from 'react-icons/md';
+//import {MdClose} from 'react-icons/md';
 import {IoMdTime} from 'react-icons/io';
 import {AiFillStar} from 'react-icons/ai';
+import {SemipolarLoading} from 'react-loadingg'
+
 import api from '../../services/api';
 const Anuncios = (props) => {
     const [itens, setItens ] = useState([]);
@@ -41,7 +43,7 @@ const Anuncios = (props) => {
                     {  
                             itens.length === 0?(
                                 <div className="not-itens">
-                                     Disponivel em breve <MdClose/>
+                                    <SemipolarLoading color="#f6a32d"/>
                                 </div>
                                     
                                 ):
