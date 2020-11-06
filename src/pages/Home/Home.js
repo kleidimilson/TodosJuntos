@@ -27,13 +27,13 @@ function Home() {
          <img src={'https://firebasestorage.googleapis.com/v0/b/todosjuntos-d06c3.appspot.com/o/banner-apoie-o-local-02-07.jpg?alt=media&token=68a2c216-7ce6-4d2c-b347-73314989823f'} width="100%" height="150%" alt="imagem"/>
        </header>
        <br></br>
-       <main>
+       <main id="main">
         
     
-          <h3>Escolha uma categoria:</h3>
+          <p id="title">Escolha uma categoria:</p>
           <div className="itens">
            <div className="item">
-               <Link to="/anuncios/lanches">
+               <Link to="/anuncios/lanches" style={{ textDecoration: 'none', color: '#818689;' }}>
                  <FaHamburger color="#F6A32D" size={60}/>
                  <p>Lanches</p>
                 </Link>

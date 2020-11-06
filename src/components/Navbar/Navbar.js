@@ -12,7 +12,7 @@ function Navbar (){
                 <Link to="/">
                     <div className="logo">
                         <FaHandsHelping  size={30}/>  
-                        <h3>Todos Juntos</h3>
+                        <p>Todos Juntos</p>
                     </div>
                 </Link>
 

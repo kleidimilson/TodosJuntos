@@ -2,22 +2,17 @@
 header{
     margin-top: -20px;
 }
-.input{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#icon-search{
-    margin-top: 10px;
-    margin-left: -30px;
-}
-main{
-    
+
+#main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     
+}
+#title{
+    font-size: 18px;
+    font-weight: bold;
 }
 .itens{
     margin-top: 20px;
@@ -29,14 +24,14 @@ main{
     
 }
 .item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+   padding: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
     font-weight: bold;
     border-radius: 20px;
     text-align: center;
-    padding: 20px;
+  
     margin: 10px;
     background-color: #fff;
     -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
@@ -50,6 +45,11 @@ main{
     flex-direction: column;
     text-decoration: none;
     color: #818689;
+    
+}
+.item a:hover{
+    color: #818689;
+    text-decoration: none;
 }
 .item:hover{
     border: 2px #f6a32d solid;

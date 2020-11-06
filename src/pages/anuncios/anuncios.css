@@ -11,6 +11,7 @@
     text-transform: uppercase;
 }
 main{
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,9 +19,14 @@ main{
 }
 main ul{
     margin-top: -27px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 .cards{
-    
+    width: 300px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +34,7 @@ main ul{
     font-weight: bold;
     border-radius: 14px;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
     background-color: #fff;
     -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
@@ -46,9 +52,14 @@ main ul{
 .cards-description p{
     color: #818689;
     font-size: 13px;
+    margin: 0;
 }
 .cards-description h2{
     color: #313a53
+}
+#item-title{
+    font-size: 1.3em;
+    color: #313a53;
 }
 #btn-wpp{
     text-decoration: none;
